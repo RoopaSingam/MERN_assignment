@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2EzlAdgUwhs-5EZn43fOqBiIiqZjnh5D9MA&usqp=CAU");
+}
+.button {
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cartbody {
+  /* text-align: center; */
+  /* justify-content: center; */
+  margin-top: 10px;
+  right: 0;
+  z-index: 134;
+  background-color: #3a6b3c;
+  width: 80vh;
+  height: 100vh;
+  transition: transform 0.5s;
+  /* max-height: 200%;
+  min-height: 75px; */
+  overflow-y: auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.wrapper {
+  padding: 0px 45px;
+  max-width: 70%;
+  /* display: flex; */
+  /* flex-flow: column;
+  align-items: flex-start; */
+}
